@@ -260,7 +260,8 @@ public class Gestor {
         System.out.print("ID do Quarto para concluir manutenção: ");
         int idQuarto = scanner.nextInt();
         Quarto quarto = Quarto.encontrarQuarto(idQuarto);
-
+ 
+        
         if (quarto != null) {
             quarto.concluirManutencao();
             System.out.println("Manutenção concluída para o quarto " + idQuarto);

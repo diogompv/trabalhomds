@@ -92,7 +92,8 @@ public class Reserva {
     }
 
     @Override
-    public String toString() {
+    public String toString() { 
+        
         return "Reserva{" +
                 "id=" + id +
                 ", numeroQuarto=" + numeroQuarto +

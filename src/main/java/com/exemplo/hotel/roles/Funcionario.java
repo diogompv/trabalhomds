@@ -36,7 +36,8 @@ public class Funcionario {
     }
 
     private static void gerirReservas(Scanner scanner) {
-        while (true) {
+        while (true) { 
+            
             System.out.println("\n--- Gerenciamento de Reservas ---");
             System.out.println("1. Listar Reservas");
             System.out.println("2. Fazer Reserva");
